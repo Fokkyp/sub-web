@@ -474,6 +474,7 @@ export default {
           "sub.cm": "https://sub.cm/short",
         },
         customBackend: {
+          "默认后端": "https://subapi.mysscloud.top",
           "肥羊增强型后端【vless reality+anytls】": "https://url.v1.mk",
           "肥羊备用后端【vless reality+anytls】": "https://sub.d1.mk",
           nameless13提供: "https://www.nameless13.com",
@@ -492,6 +493,10 @@ export default {
           {
             label: "通用",
             options: [
+              {
+                label: "自用默认",
+                value: "https://raw.githubusercontent.com/Fokkyp/myproxy/main/rules/Proxy_rules_full.ini"
+              },
               {
                 label: "默认",
                 value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini"
@@ -556,6 +561,10 @@ export default {
               {
                 label: "ACL_全分组版",
                 value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full.ini"
+              },
+              {
+                label: "ACL_全分组无测速版",
+                value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini"
               },
               {
                 label: "ACL_全分组谷歌版",
@@ -1410,4 +1419,5 @@ export default {
   }
 };
 </script>
+
 
