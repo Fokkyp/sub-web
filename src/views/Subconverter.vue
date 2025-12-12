@@ -893,8 +893,8 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: this.getUrlParam() == "" ? "https://url.mysscloud.top" : this.getUrlParam(),
-        shortType: "https://url.mysscloud.top/short",
+        customBackend: this.getUrlParam() == "" ? "https://url.v1.mk" : this.getUrlParam(),
+        shortType: "https://v1.mk/short",
         remoteConfig: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini",
         excludeRemarks: "",
         includeRemarks: "",
@@ -1425,6 +1425,7 @@ export default {
   }
 };
 </script>
+
 
 
 
